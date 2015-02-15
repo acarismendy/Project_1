@@ -6,79 +6,79 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="Project 1 : HW 1 for Data Visualization - 10 datasets and team description">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css">
 
     <title>Project 1</title>
   </head>
 
   <body>
-    <h1 style="text-align:center; padding:10px;">Data Visualization Project</h1>
-    <div style="background-color: lightgray">
-      <h2 style="text-align:center;padding:10px;; ">Project Participants:</h2>
+    <!--Header-->
+    <div id="myheader">
+      <h1>Data Visualization Project</h1>
+      <h2>IE 590</h2>
+    </div>   
+    <!--Participants Header-->
+    <div id="participants">
+      <h2> Project participants</h2>
+        <table align= center>
+          <thead>
+            <tr>
+              <th>Andrea Arismendy</th>
+              <th>Manuel Ramírez</th>
+            </tr>
+          </thead>  
+          <tbody>
+            <tr>
+              <td style="text-align:left; height:100px; width:1000px;">
+                <ul>
+                  <li>Industrial Engineer from Bogota, Colombia, currently living in Chile.</li>
+                  <li>Currently enrolled in the second year of the Master in Science and Industrial Engineering.</li>
+                  <li>New to web programming, but familiar with VBA and JAVA.</li>
+                </ul>
+              </td>
+              <td style="text-align:left; height:100px; width:1000px;">
+                <ul>
+                  <li>Industrial Engineer from Bogota, Colombia, currently living in West Lafayette.</li>
+                  <li>Currently enrolled in the second year of the Master in Science and Industrial Engineering.</li>
+                  <li>New to web programming, but familiar with some programming languages. I took a 1 week course offered by SAS in data mining, and find the huge variety of tools for exploring and explaining data fascinating. From past experiences I have come to the conclusion that the visualization of data is crucial in the interaction between engineers (us) and non engineers (clients or customers).</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
     </div>
-    <div style="max-width:40%; background-color:#F8F8F8; float:right"  
-      <h4>Andrea Arismendy</h4>
-      <ul>
-        <li>Industrial Engineer from Bogota, Colombia, currently living in Chile.</li>
-        <li>Currently enrolled in the second year of the Master in Science and Industrial Engineering.</li>
-        <li>New to web programming, but familiar with VBA and JAVA.</li>
-      </ul>
+
+    <!--Data bases-->
+    <div id="dataSources">
+      <h2> Potential Data Sources</h2>
+      <table>
+        <thead>
+          <th>Source Link</th>
+          <th>Description</th>
+          <th>Interest</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="http://www.topuniversities.com/university-rankings/world-university-rankings/2014#sorting=rank+region=+country=+faculty=+stars=false+search=">QS Survey</a></td>
+            <td>This data provides the ranking of universities all arround the world</td>
+            <td>It might be interesting to visualize the distribution of good universities around 
+            the globe and perhaps how these entities have improved in time</td>
+          </tr>
+          <tr>
+            <td><a href="http://www.ers.usda.gov/data-products/food-price-outlook.aspx#26630">Food Price</a></td>
+            <td>This data shows the anual Consumer Price Index for the past 10 years</td>
+            <td>It would be interesting to see the tendencies of food price throughout these years and perhaps relate them with other external events</td>
+          </tr>
+          <tr>
+            <td><a href="http://transtats.bts.gov/DL_SelectFields.asp?Table_ID=236&DB_Short_Name=On-Time">Arrival of airplanes</a></td>
+            <td>Data exibits the delays in the arrivals of airplanes together with the cause of the respective delay, as well as the planes that did arrive on time</td>
+            <td>For frequent, and not so frequent, passengers this may help understand the reasons why their flights are sometimes late. It might also be helpful for airlines for understanding the more frequent causes of delay, in order to take corrective actions where possible.</td>
+          </tr>
+     
+          </tr>
+        </tbody>
+      </table>
     </div>
-    <div style="max-width:40%; background-color:#F8F8F8; "    
-      <h4>Manuel Ramírez</h4>
-      <ul>
-        <li>Industrial Engineer and Economist from Bogota, Colombia, currently living in West Lafayette.</li>
-        <li>Currently enrolled in the second year of the Master in Science and Industrial Engineering.</li>
-        <li>New to web programming, but familiar with some programming languages. I took a 1 week course offered by SAS in data mining, and find the huge variety of tools for exploring and explaining data fascinating. From past experiences I have come to the conclusion that the visualization of data is crucial in the interaction between engineers (us) and non engineers (clients or customers).</li>
-      </ul>
-    </div>
-    
-    <h2><b>Potential Data Sources:</b></h2>
-    <table>
-      <thead>
-        <th>Source Link</th>
-        <th>Description</th>
-        <th>Interest</th>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a href="http://www.topuniversities.com/university-rankings/world-university-rankings/2014#sorting=rank+region=+country=+faculty=+stars=false+search=">QS Survey</a></td>
-          <td>This data provides the ranking of universities all arround the world</td>
-          <td>It might be interesting to visualize the distribution of good universities around 
-          the globe and perhaps how these entities have improved in time</td>
-        </tr>
-        <tr>
-          <td><a href="http://www.ers.usda.gov/data-products/food-price-outlook.aspx#26630">Food Price</a></td>
-          <td>This data shows the anual Consumer Price Index for the past 10 years</td>
-          <td>It would be interesting to see the tendencies of food price throughout these years and perhaps relate them with other external events</td>
-        </tr>
-        <tr>
-          <td><a href="http://transtats.bts.gov/DL_SelectFields.asp?Table_ID=236&DB_Short_Name=On-Time">Arrival of airplanes</a></td>
-          <td>Data exibits the delays in the arrivals of airplanes together with the cause of the respective delay, as well as the planes that did arrive on time</td>
-          <td>For frequent, and not so frequent, passengers this may help understand the reasons why their flights are sometimes late. It might also be helpful for airlines for understanding the more frequent causes of delay, in order to take corrective actions where possible.</td>
-        </tr>
-        <tr>
-          
-        </tr>
-        <tr>
-          
-        </tr>
-        <tr>
-          
-        </tr>
-        <tr>
-          
-        </tr>
-        <tr>
-          
-        </tr>
-        <tr>
-          
-        </tr>
-        <tr>
-          
-        </tr>
-      </tbody>
-    </table>
+
   </body>
 </html>
