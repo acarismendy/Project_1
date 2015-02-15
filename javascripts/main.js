@@ -1,5 +1,6 @@
-$(document).ready(
-    $('td').mouseenter(funcion(){
-      $('td').effect('highlight');
-    });
-  );
+//$(document).ready(
+  //  $('td').mouseenter(funcion(){
+    //  $('td').effect('highlight');
+    //});
+ // );
+ console.log("Hola");
