@@ -2,4 +2,26 @@
 *{
 font-family:Garamond;
 }
-
+#myheader{
+	text-align:center;
+	background-color: lightblue;
+	padding: 1px;
+}
+#participants{
+	text-align:center;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: lightcyan;
+	padding: 1px;
+}
+#dataSources{
+	text-align:center;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: lightcyan;
+	padding: 1px;
+}
+table, th,td,tr{
+	border-collapse: collapse;
+	border: 1px solid blue;
+}
