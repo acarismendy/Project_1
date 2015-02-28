@@ -34,7 +34,8 @@
 	background-color: #F8F8F8 ;
 	border:2px solid #E0E0E0;
 	border-radius: 10px;
-	
+	min-width:600px;
+	max-width:1000px;
 }
 #participant{
 	background-color: white ;
@@ -53,15 +54,26 @@
 	width:400px;
 }
 #dataSources{
+	margin: 10px;
 	text-align:center;
-	margin:10px;
 	background-color: #F8F8F8 ;
+<<<<<<< HEAD
+	border:2px solid grey;
+=======
 	padding:10px;
 	border:2px solid #E0E0E0;
+>>>>>>> origin/gh-pages
 	border-radius: 10px;
+	min-width:600px;
+	max-width:1000px;
 }
 table, th,td,tr{
+	background-color: white;
+	margin: 10px;
 	text-align: center;
 	max-width:900px;
+	min-width:200px;
 	border-collapse: collapse;
+	border: 2px solid #E0E0E0;
+	padding: 5px;
 }
