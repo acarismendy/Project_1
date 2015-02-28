@@ -34,7 +34,7 @@
 	background-color: #F8F8F8 ;
 	border:2px solid #E0E0E0;
 	border-radius: 10px;
-	min-width:600px;
+	min-width:670px;
 	max-width:1000px;
 }
 #participant{
@@ -57,15 +57,13 @@
 	margin: 10px;
 	text-align:center;
 	background-color: #F8F8F8 ;
-<<<<<<< HEAD
 	border:2px solid grey;
-=======
 	padding:10px;
 	border:2px solid #E0E0E0;
->>>>>>> origin/gh-pages
 	border-radius: 10px;
-	min-width:600px;
+	min-width:650px;
 	max-width:1000px;
+	border-radius: 10px;
 }
 table, th,td,tr{
 	background-color: white;
