@@ -18,101 +18,121 @@
       <h1>Data Visualization Project</h1>
       <h2>IE 590</h2>
     </div>   
-    <!--Participants Header-->
-    <div id="participants">
-      <h2> Project participants</h2>
-        <table align= center>
+    <!--IndexLeft-->
+    <div id="myIndex">
+      <h1>Index</h1>
+      <h2><a href="#participants">Project Participants</a></h2>
+        <h3><a href="#participant1">Andrea Arismendy</a></h3>
+        <h3><a href="#participant2">Manuel Ramirez</a></h3>
+      <h2><a href="#sources">Potential Data Sources</a></h2>
+        <h3><a href="#source1">Universities ranking</a></h3>
+        <h3><a href="#source2">Food prices</a></h3>
+        <h3><a href="#source3">Airplanes delay</a></h3>
+        <h3><a href="#source4">World happiness</a></h3>
+        <h3><a href="#source5">Employment in USA</a></h3>
+        <h3><a href="#source6">Internet users</a></h3>
+        <h3><a href="#source7">Income distribution</a></h3>
+        <h3><a href="#source8">Time use survey</a></h3>
+        <h3><a href="#source9">Infections in hospitals</a></h3>
+        <h3><a href="#source10">Copper price</a></h3>
+    </div>
+    <!--Body-->
+    <div id="myBody">
+      <!--Participants Header-->
+      <div id="participants">
+        <h2><a name="participants"> Project participants</a></h2>
+          <table align= center>
+            <thead>
+              <tr>
+                <th><img src="images/andre.png" style="height:200px;"><a name="participant1"><p>Andrea Arismendy</a></th>
+                <th><img src="images/manuel.png" style="height:200px;"><a name="participant2"><p>Manuel Ramírez</a></th>
+              </tr>
+            </thead>  
+            <tbody>
+              <tr>
+                <td style="text-align:left; height:100px; width:1000px;">
+                  <ul>
+                    <li>Industrial Engineer from Bogota, Colombia, currently living in Chile.</li>
+                    <li>Currently enrolled in the second year of the Master in Science and Industrial Engineering.</li>
+                    <li>New to web programming, but familiar with VBA and JAVA.</li>
+                    <li>I am a fast learner and a proactive person, always trying to do things in the best way possible </li>
+                  </ul>
+                </td>
+                <td style="text-align:left; height:100px; width:1000px;">
+                  <ul>
+                    <li>Industrial Engineer from Bogota, Colombia, currently living in West Lafayette.</li>
+                    <li>Currently enrolled in the second year of the Master in Science and Industrial Engineering.</li>
+                    <li>New to web programming, but familiar with some programming languages. I took a 1 week course offered by SAS in data mining, and find the huge variety of tools for exploring and explaining data fascinating. From past experiences I have come to the conclusion that the visualization of data is crucial in the interaction between engineers (us) and non engineers (clients or customers).</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+
+      <!--Data bases-->
+      <div id="dataSources">
+        <h2> Potential Data Sources</h2>
+        <table>
           <thead>
-            <tr>
-              <th>Andrea Arismendy</th>
-              <th>Manuel Ramírez</th>
-            </tr>
-          </thead>  
+            <th>Source Link</th>
+            <th>Description</th>
+            <th>Interest</th>
+          </thead>
           <tbody>
             <tr>
-              <td style="text-align:left; height:100px; width:1000px;">
-                <ul>
-                  <li>Industrial Engineer from Bogota, Colombia, currently living in Chile.</li>
-                  <li>Currently enrolled in the second year of the Master in Science and Industrial Engineering.</li>
-                  <li>New to web programming, but familiar with VBA and JAVA.</li>
-                  <li>I am a fast learner and a proactive person, always trying to do things in the best way possible </li>
-                </ul>
-              </td>
-              <td style="text-align:left; height:100px; width:1000px;">
-                <ul>
-                  <li>Industrial Engineer from Bogota, Colombia, currently living in West Lafayette.</li>
-                  <li>Currently enrolled in the second year of the Master in Science and Industrial Engineering.</li>
-                  <li>New to web programming, but familiar with some programming languages. I took a 1 week course offered by SAS in data mining, and find the huge variety of tools for exploring and explaining data fascinating. From past experiences I have come to the conclusion that the visualization of data is crucial in the interaction between engineers (us) and non engineers (clients or customers).</li>
-                </ul>
-              </td>
+              <td><a name="source1", href="http://www.topuniversities.com/university-rankings/world-university-rankings/2014#sorting=rank+region=+country=+faculty=+stars=false+search=">QS Survey</a></td>
+              <td>This data provides the ranking of universities all arround the world</td>
+              <td>It might be interesting to visualize the distribution of good universities around 
+              the globe and perhaps how these entities have improved in time</td>
+            </tr>
+            <tr>
+              <td><a name="source2", href="http://www.ers.usda.gov/data-products/food-price-outlook.aspx#26630">Food Price</a></td>
+              <td>This data shows the anual Consumer Price Index for the past 10 years</td>
+              <td>It would be interesting to see the tendencies of food price throughout these years and perhaps relate them with other external events.</td>
+            </tr>
+            <tr>
+              <td><a name="source3", href="http://transtats.bts.gov/DL_SelectFields.asp?Table_ID=236&DB_Short_Name=On-Time">Arrival of airplanes</a></td>
+              <td>Data exibits the delays in the arrivals of airplanes together with the cause of the respective delay, as well as the planes that did arrive on time</td>
+              <td>For frequent, and not so frequent, passengers this may help understand the reasons why their flights are sometimes late. It might also be helpful for airlines for understanding the more frequent causes of delay, in order to take corrective actions where possible.</td>
+            </tr>
+              <td><a name="source4", href="http://www1.eur.nl/fsw/happiness/hap_nat/nat_fp.php?mode=8&ranks=1">World database of happiness</a></td>
+              <td>This database contains the results of surveys conducted all over the world regarding subjective happiness.</td>
+              <td>This source contains information regarding the perception of self happiness in a worldwide level. With it, it is possible to make characterization of countries in relation to happiness. It would also be interesting to compare this data with other macroeconomic variables such as GDP per capita.</td>
+            </tr>
+            <tr>
+              <td><a name="source5", href="http://data.bls.gov/timeseries/LNS14000000">Bureau of Labor Statistics</a></td>
+              <td>Monthly employment rate in the United States</td>
+              <td>It would be interest to visualize the behaviour of the unemployment rate against other macroeconomic variables.</td>
+            </tr>
+            <tr>
+              <td><a name="source6", href="http://databank.worldbank.org/data/views/reports/tableview.aspx">World dataBank</a></td>
+              <td>Internet users per 100 people</td>
+              <td>The use of internet can be understood as a proxy to a cultural globalization. In this sense, it could be interesting to characterize trends and the expansion of the use of internet in the world.</td>
+            </tr>
+            <tr>
+              <td><a name="source7", href="http://www.wider.unu.edu/research/Database/en_GB/wiid/">United Nations University</a></td>
+              <td>Income distribution (GINI index)</td>
+              <td>By visualizing income distribution, it would be possible to characterize geographical trends and the evolution of this index over time.</td>
+            </tr>
+            <tr>
+              <td><a name="source8", href="http://catalog.data.gov/dataset/american-time-use-survey-54e68">The American Time Use Survey</a></td>
+              <td>Measures the amount of time people spend on several activities</td>
+              <td>This visualization will enable the understanding of the activities in which people spend their time.This will also show people's priorities and help identify the more time-consuming activities in order to develop stateries to minimize the time spent on the less important ones.</td>
+            </tr>
+            <tr>
+              <td><a name="source9", href="http://catalog.data.gov/dataset/hospital-acquired-infections-beginning-2008">Hospital-Aquired Infections</a></td>
+              <td>Data evidences the primary infections contracted at hospitals in the USA.</td>
+              <td>Visualizing this information could be helpfu for hospitals in order to understand which infections are the most present in their facilities. This, in order to have solid knowledge of the precaution measures needed in the Hospital to assure patients safety.</td>
+            </tr>
+            <tr>
+              <td><a name="source10", href="http://www.investing.com/commodities/copper-historical-data">Investing.com</a></td>
+              <td>Copper prices time series.</td>
+              <td>It would be interesting to visualize the relation between copper prices and overall chilean economy, a country whose external balance is highly dependant on that commodity..</td>
             </tr>
           </tbody>
         </table>
-    </div>
-
-    <!--Data bases-->
-    <div id="dataSources">
-      <h2> Potential Data Sources</h2>
-      <table>
-        <thead>
-          <th>Source Link</th>
-          <th>Description</th>
-          <th>Interest</th>
-        </thead>
-        <tbody>
-          <tr>
-            <td><a href="http://www.topuniversities.com/university-rankings/world-university-rankings/2014#sorting=rank+region=+country=+faculty=+stars=false+search=">QS Survey</a></td>
-            <td>This data provides the ranking of universities all arround the world</td>
-            <td>It might be interesting to visualize the distribution of good universities around 
-            the globe and perhaps how these entities have improved in time</td>
-          </tr>
-          <tr>
-            <td><a href="http://www.ers.usda.gov/data-products/food-price-outlook.aspx#26630">Food Price</a></td>
-            <td>This data shows the anual Consumer Price Index for the past 10 years</td>
-            <td>It would be interesting to see the tendencies of food price throughout these years and perhaps relate them with other external events.</td>
-          </tr>
-          <tr>
-            <td><a href="http://transtats.bts.gov/DL_SelectFields.asp?Table_ID=236&DB_Short_Name=On-Time">Arrival of airplanes</a></td>
-            <td>Data exibits the delays in the arrivals of airplanes together with the cause of the respective delay, as well as the planes that did arrive on time</td>
-            <td>For frequent, and not so frequent, passengers this may help understand the reasons why their flights are sometimes late. It might also be helpful for airlines for understanding the more frequent causes of delay, in order to take corrective actions where possible.</td>
-          </tr>
-            <td><a href="http://www1.eur.nl/fsw/happiness/hap_nat/nat_fp.php?mode=8&ranks=1">World database of happiness</a></td>
-            <td>This database contains the results of surveys conducted all over the world regarding subjective happiness.</td>
-            <td>This source contains information regarding the perception of self happiness in a worldwide level. With it, it is possible to make characterization of countries in relation to happiness. It would also be interesting to compare this data with other macroeconomic variables such as GDP per capita.</td>
-          </tr>
-          <tr>
-            <td><a href="http://data.bls.gov/timeseries/LNS14000000">Bureau of Labor Statistics</a></td>
-            <td>Monthly employment rate in the United States</td>
-            <td>It would be interest to visualize the behaviour of the unemployment rate against other macroeconomic variables.</td>
-          </tr>
-          <tr>
-            <td><a href="http://databank.worldbank.org/data/views/reports/tableview.aspx">World dataBank</a></td>
-            <td>Internet users per 100 people</td>
-            <td>The use of internet can be understood as a proxy to a cultural globalization. In this sense, it could be interesting to characterize trends and the expansion of the use of internet in the world.</td>
-          </tr>
-          <tr>
-            <td><a href="http://www.wider.unu.edu/research/Database/en_GB/wiid/">United Nations University</a></td>
-            <td>Income distribution (GINI index)</td>
-            <td>By visualizing income distribution, it would be possible to characterize geographical trends and the evolution of this index over time.</td>
-          </tr>
-          <tr>
-            <td><a href="http://catalog.data.gov/dataset/american-time-use-survey-54e68">The American Time Use Survey</a></td>
-            <td>Measures the amount of time people spend on several activities</td>
-            <td>This visualization will enable the understanding of the activities in which people spend their time.This will also show people's priorities and help identify the more time-consuming activities in order to develop stateries to minimize the time spent on the less important ones.</td>
-          </tr>
-          <tr>
-            <td><a href="http://catalog.data.gov/dataset/hospital-acquired-infections-beginning-2008">Hospital-Aquired Infections</a></td>
-            <td>Data evidences the primary infections contracted at hospitals in the USA.</td>
-            <td>Visualizing this information could be helpfu for hospitals in order to understand which infections are the most present in their facilities. This, in order to have solid knowledge of the precaution measures needed in the Hospital to assure patients safety.</td>
-          </tr>
-          <tr>
-            <td><a href="http://www.investing.com/commodities/copper-historical-data">Investing.com</a></td>
-            <td>Copper prices time series.</td>
-            <td>It would be interesting to visualize the relation between copper prices and overall chilean economy, a country whose external balance is highly dependant on that commodity..</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
+      </div>
+    </div>  
   </body>
 </html>

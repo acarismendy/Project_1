@@ -3,21 +3,33 @@
 font-family:Garamond;
 }
 #myheader{
+	height: 120px;
+	width: 100%;
 	text-align:center;
 	background-color: lightblue;
-	padding: 1px;
+}
+#myIndex{
+	position:fixed;
+	top:145px;
+	text-align:right;
+	background-color: white;
+	line-height: 100%;
+	width: 240px;
+	height: 100%;
+	padding-right: 10px;
+	float:left;
+}
+#myBody{
+	top: 2000px;
+	margin-left:250px;
 }
 #participants{
 	text-align:center;
-	margin-left: 10%;
-	margin-right: 10%;
 	background-color: lightcyan;
-	padding: 1px;
+	padding: 10px;
 }
 #dataSources{
 	text-align:center;
-	margin-left: 10%;
-	margin-right: 10%;
 	background-color: lightcyan;
 	padding: 1px;
 }
