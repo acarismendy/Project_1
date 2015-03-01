@@ -88,4 +88,5 @@ table, th,td,tr{
 	min-width:650px;
 	max-width:1000px;
 	border-radius: 10px;
+	float:right;
 }
