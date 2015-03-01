@@ -6,6 +6,7 @@
 #myheader{
 	height: 120px;
 	max-width: 1280px;
+	min-width:930px;
 	text-align:center;
 	background-color: #F0F0F0 ;
 	border:2px solid #E0E0E0;
@@ -14,6 +15,7 @@
 #myIndex{
 	position:fixed;
 	top:100px;
+	top:142px;
 	text-align:right;
 	background-color: white ;
 	line-height: 100%;
@@ -74,19 +76,4 @@ table, th,td,tr{
 	border-collapse: collapse;
 	border: 2px solid #E0E0E0;
 	padding: 5px;
-}
-#Visualizations{
-	margin: 10px;
-	top: 2000px;
-	margin-left:250px;
-	text-align:center;
-	background-color: #F8F8F8 ;
-	border:2px solid grey;
-	padding:10px;
-	border:2px solid #E0E0E0;
-	border-radius: 10px;
-	min-width:650px;
-	max-width:1000px;
-	border-radius: 10px;
-	float:right;
 }
