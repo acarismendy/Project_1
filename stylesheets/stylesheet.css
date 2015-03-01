@@ -77,6 +77,8 @@ table, th,td,tr{
 }
 #Visualizations{
 	margin: 10px;
+	top: 2000px;
+	margin-left:250px;
 	text-align:center;
 	background-color: #F8F8F8 ;
 	border:2px solid grey;
